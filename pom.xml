@@ -5,7 +5,7 @@
 
    <groupId>com.bcall</groupId>
    <artifactId>test-gitflow-plugin</artifactId>
-   <version>0.0.1-SNAPSHOT</version>
+   <version>1.0.0-SNAPSHOT</version>
    <packaging>jar</packaging>
 
    <name>test-gitflow-plugin</name>
@@ -45,12 +45,12 @@
       <dependency>
          <groupId>com.bcall</groupId>
          <artifactId>test-gitflow-plugin-dependency1</artifactId>
-         <version>0.0.1-SNAPSHOT</version>
+         <version>1.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
          <groupId>com.bcall</groupId>
          <artifactId>test-gitflow-plugin-dependency2</artifactId>
-         <version>0.0.1-SNAPSHOT</version>
+         <version>1.0.0-SNAPSHOT</version>
       </dependency>
 
       <dependency>
@@ -88,7 +88,7 @@
 
                <gitFlowConfig>
                   <productionBranch>master</productionBranch>
-                  <developmentBranch>master</developmentBranch>
+                  <developmentBranch>develop</developmentBranch>
                   <featureBranchPrefix>feature/</featureBranchPrefix>
                   <releaseBranchPrefix>release/</releaseBranchPrefix>
                   <hotfixBranchPrefix>hotfix/</hotfixBranchPrefix>
