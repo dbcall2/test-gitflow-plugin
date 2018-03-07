@@ -85,6 +85,7 @@
             <configuration>
                <installProject>false</installProject>
                <verbose>true</verbose>
+               <pushRemote>true</pushRemote>
 
                <gitFlowConfig>
                   <productionBranch>master</productionBranch>
